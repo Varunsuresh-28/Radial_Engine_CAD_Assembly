@@ -20,7 +20,7 @@ constraints, GD&T callouts, ASME documentation standards, and DFM review.
 
 ---
 
-### ⚙️ Radial Engine CAD Model
+### 🔧 Radial Engine CAD Assembly
 **Software:** SolidWorks  
 **Timeline:** December 2025 – February 2026  
 Modeled a 5-cylinder radial engine to study mechanical timing of the 
