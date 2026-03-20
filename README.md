@@ -33,9 +33,10 @@ and clearances, performed FEA stress analysis, and generated a structured BOM.
 - **Articulated Rod** — secondary rods connecting the remaining 4 pistons to the main rod
 - **Piston Cap** — top closure of each piston assembly, designed for precise fitment and clearance tolerances
 
-![Full Assembly](./ME-Engineering-Projects/full-assembly.png)
-![Main Rod Detail](./ME-Engineering-Projects/main-rod.png)
-![Piston Cap](./Radial-Engine-CAD-Assembly/piston-cap.png)
-![Motion Study](./Radial-Engine-CAD-Assembly/motion-study.gif)
+![Articulated Rod](./Articulated-rod.png)
+
+![Main Rod](./main-rod.png)
+
+![Piston](./piston.png)
 
 ---
