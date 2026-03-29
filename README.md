@@ -1,10 +1,16 @@
-# ⚙️ Radial Engine CAD Assembly
-**Software:** SolidWorks  
-**Timeline:** December 2025 – February 2026  
+# Radial Engine CAD Model
+**Tools:** SolidWorks | **Timeline:** December 2025 – February 2026
 
-Modeled a 5-cylinder radial engine to study mechanical timing of the 
-main and articulated rod system. Ran motion studies to verify kinematics 
-and clearances, performed FEA stress analysis, and generated a structured BOM.
+## Overview
+5-cylinder radial engine modeled to understand the mechanical timing
+of a main and articulated rod system.
+
+## Key Work
+- Circular Component Patterns and top-down design for scalability
+- Motion Study to animate and verify kinematics, resolving interferences via FEA
+- Structured BOM with traceable part references for assembly documentation
+
+## Images
 
 ### Key Components Modeled
 - **Main Rod** — primary connecting rod linking the crankshaft to the master piston
@@ -14,6 +20,17 @@ and clearances, performed FEA stress analysis, and generated a structured BOM.
 - **Piston Cap** — top closure of each piston assembly, designed for precise fitment and clearance tolerances
 ![Piston](./piston.png)
 
+
+### Full Assembly
+
+
+![Assembly Overview](images/overview.png)
+
+### Motion Study
+![Motion Study](images/motion-study.png)
+
+### Bill of Materials
+![BOM](images/drawings/bom.png)
 
 
 
