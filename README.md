@@ -36,6 +36,7 @@ and clearances, performed FEA stress analysis, and generated a structured BOM.
 - **Piston Cap** — top closure of each piston assembly, designed for precise fitment and clearance tolerances
 ![Piston](./piston.png)
 
+![Video](./ezgif.com-video-to-gif-converter.gif)
 
 
 ---
