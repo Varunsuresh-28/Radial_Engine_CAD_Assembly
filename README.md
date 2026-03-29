@@ -19,6 +19,8 @@ of a main and articulated rod system.
 ![Articulated Rod](./Articulated-rod.png)
 - **Piston Cap** — top closure of each piston assembly, designed for precise fitment and clearance tolerances
 ![Piston](./piston.png)
+- **Piston-Rod Subassembly** — isolated model of the piston joined to the main and articulated rods, showing the pin connections and joint geometry
+![Piston-Rod Subassembly](./piston-rod-subassembly.png)
 
 
 ### Full Assembly
