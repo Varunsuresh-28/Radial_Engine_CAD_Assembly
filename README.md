@@ -21,7 +21,8 @@ of a main and articulated rod system.
 ![Piston](./piston.png)
 - **Piston-Rod Subassembly** — isolated model of the piston joined to the main and articulated rods, showing the pin connections and joint geometry
 ![Piston-Rod Subassembly](./piston-rod-subassembly.png)
-
+- **Engine Shell (Crankcase & Cylinder Barrels)** — central structural housing enclosing the crankshaft and bearing assemblies, with integrated cylinder bores governing compression ratio geometry and thermal expansion clearances
+![Engine Shell](./engine-shell.png)
 
 ### Full Assembly
 
