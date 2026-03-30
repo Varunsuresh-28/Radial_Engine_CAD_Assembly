@@ -52,7 +52,7 @@ of a main and articulated rod system.
 
 ### Bill of Materials
 > Full structured BOM with part numbers, descriptions, and quantities for all 12 components in the assembly.
-<img src="./Radial-Engine-Bom.png" width="600"/>
+<img src="./Radial-Engine-Bom.png" width="1000"/>
 
 
 
