@@ -39,11 +39,15 @@ of a main and articulated rod system.
 
 ![Full Assembly](./full-assembly.png)
 
-
 ![Assembly Overview](images/overview.png)
 
-### Motion Study
-![Motion Study](motion-study.gif)
+### Motion Studies
+
+- **Piston-Rod Subassembly Motion** — isolated animation of the piston, main rod, and articulated rod cycling through one full crankshaft revolution, validating pin joint kinematics and interference clearances
+![Piston-Rod Motion Study](./piston-rod-motion.gif)
+
+- **Full Engine with Propeller** — complete 5-cylinder radial engine motion study with propeller attached, demonstrating synchronized firing sequence, rotational output, and propeller disc behavior under simulated load
+![Full Engine Propeller Motion Study](./full-engine-propeller-motion.gif)
 
 ### Bill of Materials
 ![BOM](images/drawings/bom.png)
