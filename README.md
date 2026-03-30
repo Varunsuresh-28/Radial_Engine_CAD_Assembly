@@ -17,25 +17,25 @@ of a main and articulated rod system.
 ## Images
 
 ### Key Components Modeled
-- **Main Rod** — primary connecting rod linking the crankshaft to the master piston
+- **Main Rod**: primary connecting rod linking the crankshaft to the master piston
 ![Main Rod](./main-rod.png)
 
-- **Articulated Rod** — secondary rods connecting the remaining 4 pistons to the main rod
+- **Articulated Rod**: secondary rods connecting the remaining 4 pistons to the main rod
 ![Articulated Rod](./Articulated-rod.png)
 
-- **Piston** — top closure of each piston assembly, designed for precise fitment and clearance tolerances
+- **Piston**: top closure of each piston assembly, designed for precise fitment and clearance tolerances
 ![Piston](./piston.png)
 
-- **Piston-Rod Subassembly** — isolated model of the piston joined to the main and articulated rods, showing the pin connections and joint geometry
+- **Piston-Rod Subassembly**: isolated model of the piston joined to the main and articulated rods, showing the pin connections and joint geometry
 ![Piston-Rod Subassembly](./piston-rod-subassembly.png)
 
-- **Crankshaft** — precision-machined rotating shaft converting reciprocating piston motion into continuous rotational output, with offset crank pins timed to coordinate the firing sequence across all 5 cylinders
+- **Crankshaft**: precision-machined rotating shaft converting reciprocating piston motion into continuous rotational output, with offset crank pins timed to coordinate the firing sequence across all 5 cylinders
 ![Crankshaft](./crankshaft.png)
 
-- **Engine Shell (Crankcase & Cylinder Barrels)** —5 cylinder central structural housing enclosing the crankshafts, Main Rod, Articulated Rods, and the Pistons. 
+- **Engine Shell (Crankcase & Cylinder Barrels)**: 5 cylinder central structural housing enclosing the crankshafts, Main Rod, Articulated Rods, and the Pistons. 
 ![Engine Shell](./engine-shell.png)
 
-- **Propeller** — 2-blade propeller modeled using SolidWorks Sweep to generate the twisted aerofoil profile along a defined pitch path, simulating rotational output from the crankshaft
+- **Propeller**: 2-blade propeller modeled using SolidWorks Sweep to generate the twisted aerofoil profile along a defined pitch path, simulating rotational output from the crankshaft
 ![Propeller](./propeller.png)
 
 ### Full Assembly
