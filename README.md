@@ -1,6 +1,10 @@
+<p align="center">
+  <img src="./Preview.png" width="60"/>
+</p>
 
-
-# Radial Engine CAD Assembly
+# Radial Engine CAD Assembly <p align="center">
+  <img src="./Preview.png" width="60"/>
+</p>
 **Tools:** SolidWorks | **Timeline:** December 2025 – February 2026
 
 ## Overview
