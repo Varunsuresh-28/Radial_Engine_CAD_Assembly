@@ -47,7 +47,7 @@ of a main and articulated rod system.
 ![Piston-Rod Motion Study](./piston-rod-motion.gif)
 
 - **Full Engine with Propeller** — complete 5-cylinder radial engine motion study with propeller attached, demonstrating synchronized firing sequence, rotational output, and propeller disc behavior under simulated load
-<img src="./full-engine-propeller-motion.gif" width="1000"/>
+<img src="./full-engine-propeller-motion.gif" width="1050"/>
 
 
 ### Bill of Materials
