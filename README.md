@@ -30,6 +30,7 @@ of a main and articulated rod system.
 
 ### Full Assembly
 > Crankcase rendered transparent to expose the internal Piston-Rod Subassembly and crankshaft geometry
+
 ![Full Assembly](./full-assembly.png)
 
 
