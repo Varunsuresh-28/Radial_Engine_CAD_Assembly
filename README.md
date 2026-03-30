@@ -1,5 +1,3 @@
-![Banner](./full-assembly.png)
-
 # Radial Engine CAD Assembly
 **Tools:** SolidWorks | **Timeline:** December 2025 – February 2026
 
