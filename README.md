@@ -39,7 +39,7 @@ of a main and articulated rod system.
 
 ![Full Assembly](./full-assembly.png)
 
-![Assembly Overview](images/overview.png)
+
 
 ### Motion Studies
 
