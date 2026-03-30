@@ -51,26 +51,10 @@ of a main and articulated rod system.
 
 
 ### Bill of Materials
-![BOM](./Radial-Engine-Bom.pdf)
+> Full structured BOM with part numbers, descriptions, and quantities for all 12 components in the assembly.
+![BOM](./Radial-Engine-Bom.png)
 
-```markdown
-### Bill of Materials
 
-| ITEM NO. | PART NUMBER | DESCRIPTION | QTY. |
-|---|---|---|---|
-| 1 | Crankcase | Structural housing for crankshaft and bearings | 1 |
-| 2 | Cylinder-Barrel | Bore housing the piston during combustion | 5 |
-| 3 | M10×23-Hex-Bolt | Secures cylinder barrels to crankcase flange | 20 |
-| 4 | Cylinder-Head | Seals the top of the combustion chamber | 5 |
-| 5 | M5×23-Socket-Head | Secures cylinder head to cylinder barrel | 20 |
-| 6 | Crankshaft | Converts reciprocating piston motion to rotation | 1 |
-| 7 | Piston | Transmits combustion forces to connecting rods | 5 |
-| 8 | Master-Rod | Primary rod linking crankshaft to master piston | 1 |
-| 9 | Articulated-Rod | Links remaining 4 pistons to master rod | 4 |
-| 10 | Piston-Pin | Connects each piston to its connecting rod | 5 |
-| 11 | M5×45-Phillips-Pan-Head | Secures propeller hub to crankshaft nose | 4 |
-| 12 | Propeller | Converts crankshaft rotation into thrust | 1 |
-```
 
 
 
