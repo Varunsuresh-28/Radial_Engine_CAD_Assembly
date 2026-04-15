@@ -70,7 +70,7 @@ Von Mises stress criterion is used to evaluate yielding:
 ---
 
 ### Static 1 — 1060-H12 Aluminum
-![1060-H12 Aluminum FEA](./1060-H12_Aluminum.png)
+![1060-H12 Aluminum FEA](./1060-H12 Aluminum.png)
 
 | Parameter | Value |
 |---|---|
