@@ -39,7 +39,9 @@ of a main and articulated rod system.
 
 ![Full Assembly](./full-assembly.png)
 
-
+### Bill of Materials
+> Full structured BOM with part numbers, descriptions, and quantities for all 12 components in the assembly.
+<img src="./Radial-Engine-Bom.png" width="900"/>
 
 ### Motion Studies
 
@@ -51,11 +53,32 @@ of a main and articulated rod system.
 <img src="./full-engine-propeller-motion.gif" width="1050"/>
 
 
-### Bill of Materials
-> Full structured BOM with part numbers, descriptions, and quantities for all 12 components in the assembly.
-<img src="./Radial-Engine-Bom.png" width="900"/>
+## Finite Element Analysis (FEA) & Material Optimization
 
+To validate the structural integrity of the engine block under simulated combustion loads and thermal stress, a progressive finite element analysis was conducted using SolidWorks Simulation. The study compared four distinct materials to determine the optimal balance of peak strength and minimum weight.
 
+### Comparative Material Study
+
+| Material | Yield Strength | Outcome |
+|---|---|---|
+| 1060-H12 Aluminum (Baseline) | ~75 MPa | Catastrophic failure — baseline only |
+| 6061-T6 Aluminum | ~275 MPa | Significant deformation — failed peak stress requirements |
+| 7075-T6 Aluminum | 505 MPa |  — optimal strength-to-weight ratio |
+| AISI 4340 Steel (Normalized) | ~710 MPa | Structural fallback — excess weight penalty |
+
+### Validation Results: 7075-T6 Aluminum
+
+Testing the Engine Shell under steady-state thermal conditions (175°C – 230°C at cylinder heads) and peak mechanical combustion pressure.
+
+| Parameter | Value |
+|---|---|
+| Maximum Stress (von Mises) | 361 MPa |
+| Material Yield Strength | 505 MPa |
+| Factor of Safety (FOS) | 1.4 |
+
+### Engineering Conclusion
+
+The 7075-T6 Aluminum alloy successfully withstands the simulated operating conditions without yielding. Because the peak stress (361 MPa) remains well below the material yield strength (505 MPa), the engine block operates entirely within its elastic region — flexing under load but returning to its original geometry without permanent deformation. The resulting Factor of Safety of 1.4 provides a 40% structural buffer, confirming the design achieves structural integrity while avoiding the weight penalty of a steel assembly.
 
 
 
