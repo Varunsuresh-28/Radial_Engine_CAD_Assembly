@@ -55,32 +55,98 @@ of a main and articulated rod system.
 
 ## Finite Element Analysis (FEA) & Material Optimization
 
-To validate the structural integrity of the engine block under simulated combustion loads and thermal stress, a progressive finite element analysis was conducted using SolidWorks Simulation. The study compared four distinct materials to determine the optimal balance of peak strength and minimum weight.
+To validate the structural integrity of the engine block (Crankshell) under simulated combustion loads, 
+a static nodal stress study was conducted in SolidWorks Simulation across four materials. Each study 
+applies identical boundary conditions and loading to isolate material performance as the sole variable.
 
-### Comparative Material Study
+### Methodology
+Von Mises stress criterion is used to evaluate yielding:
 
-| Material | Yield Strength | Outcome |
-|---|---|---|
-| 1060-H12 Aluminum (Baseline) | ~75 MPa | Catastrophic failure — baseline only |
-| 6061-T6 Aluminum | ~275 MPa | Significant deformation — failed peak stress requirements |
-| 7075-T6 Aluminum | 505 MPa |  — optimal strength-to-weight ratio |
-| AISI 4340 Steel (Normalized) | ~710 MPa | Structural fallback — excess weight penalty |
+- **Von Mises Stress (σ_vm)** — equivalent stress combining all stress components into a single scalar value
+- **Yield Strength (σ_y)** — the stress at which a material begins to permanently deform
+- **Factor of Safety (FOS)** — ratio of yield strength to peak stress: `FOS = σ_y / σ_vm(max)`
+- A **FOS > 1.0** means the part does not yield; **FOS < 1.0** means failure
 
-### Validation Results: 7075-T6 Aluminum
+---
 
-Testing the Engine Shell under steady-state thermal conditions (175°C – 230°C at cylinder heads) and peak mechanical combustion pressure.
+### Static 1 — 1060-H12 Aluminum
+![1060-H12 Aluminum FEA](./1060-H12_Aluminum.png)
 
 | Parameter | Value |
 |---|---|
-| Maximum Stress (von Mises) | 361 MPa |
-| Material Yield Strength | 505 MPa |
-| Factor of Safety (FOS) | 1.4 |
+| Peak Von Mises Stress | 633.5 MPa |
+| Yield Strength | 75.0 MPa |
+| Factor of Safety | **0.12** |
+
+**Result: FAIL** — Peak stress is 8.4× the yield strength. The crankshell catastrophically yields 
+under load. Commercially pure aluminum has no viable application in combustion engine structures. 
+Serves as a baseline only.
+
+---
+
+### Static 2 — 6061-T6 Aluminum
+![6061-T6 Aluminum FEA](./6061-T6_Aluminum.png)
+
+| Parameter | Value |
+|---|---|
+| Peak Von Mises Stress | 644.2 MPa |
+| Yield Strength | 275.0 MPa |
+| Factor of Safety | **0.43** |
+
+**Result: FAIL** — Peak stress is 2.3× the yield strength. Despite being a standard structural alloy 
+used widely in aerospace and automotive applications, 6061-T6 is insufficient for the peak combustion 
+loads in this engine configuration. Significant permanent deformation would occur.
+
+---
+
+### Static 3 — 7075-T6 Aluminum
+![7075-T6 Aluminum FEA](./7075-T6__SN__Aluminum.png)
+
+| Parameter | Value |
+|---|---|
+| Peak Von Mises Stress | 348.7 MPa |
+| Yield Strength | 505.0 MPa |
+| Factor of Safety | **1.45** |
+
+**Result: PASS ✓** — Peak stress remains below yield strength with a 45% structural buffer. 
+The stress distribution is predominantly in the lower range (blue), with moderate stress 
+concentrations at the cylinder collar interfaces (green). The part operates entirely within 
+its elastic region — it deforms under load but returns to its original geometry. Selected as 
+the optimal material for its high strength-to-weight ratio.
+
+---
+
+### Static 4 — Ti-6Al-4V Titanium
+![Ti-6Al-4V Titanium FEA](./Ti-6Al-4V_Titanium.png)
+
+| Parameter | Value |
+|---|---|
+| Peak Von Mises Stress | 352.4 MPa |
+| Yield Strength | 827.4 MPa |
+| Factor of Safety | **2.35** |
+
+**Result: PASS ✓** — Highest FOS of all four materials with a 135% structural buffer. Stress 
+concentrations are minimal and well distributed. However, Ti-6Al-4V carries a significant cost 
+and machinability penalty over aluminum — its superior performance is not required given that 
+7075-T6 already satisfies the structural requirements. Retained as a high-performance fallback 
+for elevated operating conditions.
+
+---
+
+### Material Comparison Summary
+
+| Material | Peak Stress (MPa) | Yield Strength (MPa) | FOS | Result |
+|---|---|---|---|---|
+| 1060-H12 Aluminum | 633.5 | 75.0 | 0.12 | ❌ Fail |
+| 6061-T6 Aluminum | 644.2 | 275.0 | 0.43 | ❌ Fail |
+| 7075-T6 Aluminum | 348.7 | 505.0 | 1.45 | ✅ Pass |
+| Ti-6Al-4V Titanium | 352.4 | 827.4 | 2.35 | ✅ Pass |
 
 ### Engineering Conclusion
-
-The 7075-T6 Aluminum alloy successfully withstands the simulated operating conditions without yielding. Because the peak stress (361 MPa) remains well below the material yield strength (505 MPa), the engine block operates entirely within its elastic region — flexing under load but returning to its original geometry without permanent deformation. The resulting Factor of Safety of 1.4 provides a 40% structural buffer, confirming the design achieves structural integrity while avoiding the weight penalty of a steel assembly.
-
-
+7075-T6 Aluminum is selected as the optimal material. It is the lightest passing material, 
+achieving a FOS of 1.45 while avoiding the cost and machinability challenges of titanium. 
+The crankshell operates fully within its elastic region under peak combustion loads, confirming 
+structural integrity without the weight penalty of a steel or titanium assembly.
 
 
 ---
